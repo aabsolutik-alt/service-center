@@ -7,10 +7,20 @@
 
 ## Projectgegevens
 
-* **Naam van het project:**  Indesit Service Center
+* **Naam van het project:** Indesit Service Center
 * **Repository:** Service-center
-* **Beschrijving van het project:**  Een responsieve website voor een servicecentrum
+* **Beschrijving van het project:** Een responsieve website voor een servicecentrum, gebouwd met semantische HTML5 en Tailwind CSS.
 * **De reden waarom je dit project wilt maken:** Ik wil dit project maken om ervaring op te doen met Tailwind CSS en te onderzoeken hoe dit mijn workflow en styling in front-end ontwikkeling kan verbeteren.
+
+## Koppeling Kwalificatiedossier (Kerntaken)
+
+Dit project wordt uitgevoerd conform de eisen uit het Kwalificatiedossier Software Developer:
+
+* **B1-K1-W1 (Planning & Voortgang):** Er is een duidelijke planning opgesteld en de voortgang wordt bijgehouden via Git en GitHub commits.
+* **B1-K1-W2 (Technisch ontwerp):** Het opzetten van een schone mappenstructuur en het uitwerken van de lay-out en componenten op basis van het ontwerp.
+* **B1-K1-W3 (Realiseert software):** Het schrijven van schone, gestructureerde HTML5 en het toepassen van Tailwind CSS volgens professionele codeconventies.
+* **B1-K1-W4 (Testen van software):** Het testen van de lay-out en responsiveness op verschillende schermformaten en browsers.
+* **B1-K1-W5 (Verbervoorstellen):** Het doorvoeren van verbeteringen in de code en structuur op basis van eigen inzicht en voortschrijdend inzicht.
 
 ## Randvoorwaarden & Maatschappelijke Aspecten
 
@@ -23,4 +33,4 @@
 ## Planning
 
 * **Begindatum:** 29-09-2026
-* **Einddatum:**  06-10-2026
+* **Einddatum:** 06-10-2026
