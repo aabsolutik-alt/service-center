@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="format-detection" content="telephone=no">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Service</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Service</title>
 </head>
+
 <body>
   <header class="header">
     <div class="header__container">
@@ -16,7 +18,6 @@
         <img src="img/logo.png" alt="Indesit Logo">
       </a>
       <div class="header__location">
-        <!-- Путь к папке icons -->
         <img src="img/icons/location.svg" alt="location">
         <span>Your state:</span>
         <select>
@@ -32,7 +33,6 @@
         </div>
       </div>
       <div class="header__phones">
-        <!-- Если файл называется phone.svg или как-то иначе, измените название здесь -->
         <img src="img/icons/telephone.svg" alt="phone">
         <div>
           <a href="tel:+78632036048">+7(863) 203 60 48</a>
@@ -46,17 +46,16 @@
   <main>
     <section class="hero">
       <div class="hero__container">
-        
         <div class="hero__content">
           <h1 class="hero__title">
             <span class="text-blue">INDESIT</span> Service center <br>
             in Los Angeles
           </h1>
-          
+
           <p class="hero__subtitle">Avoid Extra Costs</p>
-          
+
           <button class="hero__btn" type="button">CALL A SPECIALIST</button>
-          
+
           <p class="hero__note">
             <span class="text-red">*</span> Visit and diagnostics are free of charge subject to repair
           </p>
@@ -76,64 +75,44 @@
             </div>
           </div>
         </div>
-
         <div class="hero__image">
-          <!-- Путь к папке main. Замените название файла, если мастер без фона называется иначе -->
           <img src="img/main/Group 2.png" alt="Specialist">
         </div>
-
       </div>
     </section>
-
     <section class="equipment">
       <div class="equipment__container">
-        
         <h2 class="equipment__title">Repair of any borken-down equipment INDESIT</h2>
-
         <div class="equipment__slider">
-          
           <button class="slider__btn slider__btn--prev" type="button" aria-label="Previous">
-            <!-- Путь к папке slider -->
             <img src="img/slider/arrow-left.svg" alt="Previous">
           </button>
-
           <div class="equipment__grid">
-            
             <div class="equipment__card equipment__card--large">
-              <!-- Пути к папке repair -->
               <img src="img/repair/1.png" alt="Washing machine">
               <p>Washing machine<br>repair cars</p>
             </div>
-
             <div class="equipment__card">
               <img src="img/repair/2.png" alt="Hoods">
               <p>Hoods</p>
             </div>
-
             <div class="equipment__card">
               <img src="img/repair/3.png" alt="Dishwashers">
               <p>Dishwashers</p>
             </div>
-
             <div class="equipment__card">
               <img src="img/repair/4.png" alt="Vacuum cleaners">
               <p>Vacuum cleaners</p>
             </div>
-
             <div class="equipment__card">
               <img src="img/repair/5.png" alt="Hobs">
               <p>Hobs</p>
             </div>
-
           </div>
-
           <button class="slider__btn slider__btn--next" type="button" aria-label="Next">
-            <!-- Путь к папке slider -->
             <img src="img/slider/arrow-right.svg" alt="Next">
           </button>
-
         </div>
-
         <div class="equipment__cta">
           <div class="cta__text">
             <h3>Didn't find your product on the list or have question?</h3>
@@ -141,9 +120,390 @@
           </div>
           <button class="header__btn" type="button">Order service</button>
         </div>
+      </div>
+    </section>
+    <section class="mt-16">
+      <div
+        class="max-w-[1200px] mx-auto bg-[#0391D3] text-white flex items-center justify-between px-10 py-12 font-sans rounded-xl">
+        <div class="max-w-[500px]">
+          <h2 class="text-3xl font-bold mb-4 leading-tight">
+            Order a free departure masters in 30 minutes!
+          </h2>
+          <p class="text-sm opacity-90 mb-8">
+            A technician's visit and diagnostics are free, subject to repairs. We monitor the quality of service. An
+            experienced specialist will come to you work for at least five years. We have a fast technician, starting
+            from 30 minutes.
+          </p>
+          <button class="bg-[#FF4500] hover:bg-[#e03d00] text-white font-bold py-3 px-8 rounded-full transition-all">
+            Order service
+          </button>
+        </div>
+        <div>
+          <img src="img/repair/Theme-removebg-preview.png" alt="Master" class="max-w-[500px] h-auto">
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full bg-[#0391D3] py-16 mt-16">
+      <div class="max-w-[1200px] mx-auto px-4">
+
+        <h2 class="text-center text-white text-3xl font-bold mb-10 font-sans">
+          <span class="text-[#FF4500]">INDESIT</span> service offers the best prices
+        </h2>
+
+        <div class="grid grid-cols-4 gap-6 font-sans">
+
+          <div class="bg-white p-6 flex flex-col justify-between min-h-[220px]">
+            <div>
+              <h3 class="font-bold text-gray-900 text-lg mb-2 font-sans">Microwave repair</h3>
+              <p class="text-gray-500 text-xs font-sans">Replacing mica, magnetron, restoration of buttons, etc.</p>
+            </div>
+            <span class="text-red-500 font-bold text-xs font-sans">FROM 25$</span>
+          </div>
+
+          <div class="bg-white p-6 flex flex-col justify-between min-h-[220px]">
+            <div>
+              <h3 class="font-bold text-gray-900 text-sm mb-2 font-sans">Vacuum cleaner repair</h3>
+              <p class="text-gray-500 text-xs font-sans">Replacement or restoration hose, control circuits, engine, etc.
+              </p>
+            </div>
+            <span class="text-red-500 font-bold text-xs font-sans">FROM 40$</span>
+          </div>
+
+          <div class="bg-white p-6 flex flex-col justify-between min-h-[220px]">
+            <div>
+              <h3 class="font-bold text-gray-900 text-sm mb-2 font-sans">Audio equipment repair</h3>
+              <p class="text-gray-500 text-xs font-sans">Speakers, home theaters, musical centers and other types.</p>
+            </div>
+            <span class="text-red-500 font-bold text-xs font-sans">FROM 40$</span>
+          </div>
+
+          <div class="bg-white p-6 flex flex-col justify-between min-h-[220px]">
+            <div>
+              <h3 class="font-bold text-gray-900 text-sm mb-2 font-sans">Microwave repair</h3>
+              <p class="text-gray-500 text-xs font-sans">Replacing mica, magnetron, restoration of buttons, etc.</p>
+            </div>
+            <span class="text-red-500 font-bold text-xs font-sans">FROM 25$</span>
+          </div>
+
+          <div class="bg-white p-6 flex flex-col justify-between min-h-[220px]">
+            <div>
+              <h3 class="font-bold text-gray-900 text-sm mb-2 font-sans">Microwave repair</h3>
+              <p class="text-gray-500 text-xs font-sans">Replacing mica, magnetron, restoration of buttons, etc.</p>
+            </div>
+            <span class="text-red-500 font-bold text-xs font-sans">FROM 25$</span>
+          </div>
+
+          <div
+            class="bg-[#B30000] p-6 flex flex-col justify-between min-h-[220px] text-white relative overflow-hidden font-sans">
+            <div class="z-10 max-w-[60%]">
+              <h3 class="font-bold text-sm mb-2">Meeting with the master</h3>
+              <p class="text-xs opacity-90">At a time convenient for you. To your home or to the office!</p>
+            </div>
+            <span class="font-bold text-xs z-10">FOR FREE</span>
+            <img src="img/service/photo-1.png" alt="Master"
+              class="absolute -right-4 -bottom-2 h-36 object-contain pointer-events-none">
+          </div>
+
+          <div
+            class="bg-[#0B1528] p-6 flex flex-col justify-between min-h-[220px] text-white font-sans relative overflow-hidden">
+            <div>
+              <h3 class="font-bold text-sm mb-2">Diagnostics</h3>
+              <p class="text-xs text-gray-400">With use modern equipment</p>
+            </div>
+            <div class="flex items-end justify-between w-full">
+              <span class="font-bold text-xs">FOR FREE</span>
+              <img src="img/repair/1.png" alt="Diagnostics" class="h-20 object-contain">
+            </div>
+          </div>
+
+          <div
+            class="bg-[#0B1528] p-6 flex flex-col justify-between min-h-[220px] text-white font-sans relative overflow-hidden">
+            <div>
+              <h3 class="font-bold text-sm mb-2">Extended Warranty</h3>
+              <p class="text-xs text-gray-400">For all spare parts and completed services</p>
+            </div>
+            <div class="flex items-end justify-between w-full">
+              <span class="font-bold text-xs">FOR FREE</span>
+              <img src="img/service/photo-3.png" alt="Shield" class="h-16 object-contain">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full bg-white py-16">
+
+      <div class="max-w-[1200px] mx-auto px-4">
+        <h2 class="text-center text-3xl font-bold mb-12">Scheme of work</h2>
+
+
+        <section class="w-full bg-white py-16">
+          <div class="max-w-[1200px] mx-auto px-4">
+            <div class="grid grid-cols-3 gap-x-8 gap-y-16">
+
+
+              <div class="relative border border-[#0391D3] p-6 pt-6">
+                <div
+                  class="absolute -top-6 -left-6 bg-[#0391D3] text-white w-20 h-20 pt-2 pl-3 text-base font-bold whitespace-nowrap">
+                  STEP 1
+                </div>
+                <div class="flex items-start gap-8">
+                  <div class="w-12 flex-shrink-0 mt-16">
+                    <img src="img/work/1.svg" alt="icon" class="w-full h-auto">
+                  </div>
+                  <div class="mt-4">
+                    <h3 class="font-bold text-gray-900 mb-2">Consultation</h3>
+                    <p class="text-sm text-gray-500">Personal manager will answer all your questions and will keep you
+                      updated on everything stages of work</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="relative border border-[#0391D3] p-6 pt-6">
+                <div
+                  class="absolute -top-6 -left-6 bg-[#0391D3] text-white w-20 h-20 pt-2 pl-3 text-base font-bold whitespace-nowrap">
+                  STEP 2
+                </div>
+                <div class="flex items-start gap-8">
+                  <div class="w-12 flex-shrink-0 mt-16">
+                    <img src="img/work/2.svg" alt="icon" class="w-full h-auto">
+                  </div>
+                  <div class="mt-4">
+                    <h3 class="font-bold text-gray-900 mb-2">Delivery</h3>
+                    <p class="text-sm text-gray-500">The courier will arrive within 1 hour or we can accept the device
+                      at the service</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="relative border border-[#0391D3] p-6 pt-6">
+                <div
+                  class="absolute -top-6 -left-6 bg-[#0391D3] text-white w-20 h-20 pt-2 pl-3 text-base font-bold whitespace-nowrap">
+                  STEP 3
+                </div>
+                <div class="flex items-start gap-8">
+                  <div class="w-12 flex-shrink-0 mt-16">
+                    <img src="img/work/3.svg" alt="icon" class="w-full h-auto">
+                  </div>
+                  <div class="mt-4">
+                    <h3 class="font-bold text-gray-900 mb-2">Diagnostics</h3>
+                    <p class="text-sm text-gray-500">We will carry out diagnostics at the company’s expense, even if you
+                      refuse repairs.</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="relative border border-[#0391D3] p-6 pt-6">
+                <div
+                  class="absolute -top-6 -left-6 bg-[#0391D3] text-white w-20 h-20 pt-2 pl-3 text-base font-bold whitespace-nowrap">
+                  STEP 4
+                </div>
+                <div class="flex items-start gap-8">
+                  <div class="w-12 flex-shrink-0 mt-16">
+                    <img src="img/work/4.svg" alt="icon" class="w-full h-auto">
+                  </div>
+                  <div class="mt-4">
+                    <h3 class="font-bold text-gray-900 mb-2">Consultation</h3>
+                    <p class="text-sm text-gray-500">Personal manager will answer all your questions and will keep you
+                      updated on everything stages of work</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="relative border border-[#0391D3] p-6 pt-6">
+                <div
+                  class="absolute -top-6 -left-6 bg-[#0391D3] text-white w-20 h-20 pt-2 pl-3 text-base font-bold whitespace-nowrap">
+                  STEP 5
+                </div>
+                <div class="flex items-start gap-8">
+                  <div class="w-12 flex-shrink-0 mt-16">
+                    <img src="img/work/5.svg" alt="icon" class="w-full h-auto">
+                  </div>
+                  <div class="mt-4">
+                    <h3 class="font-bold text-gray-900 mb-2">Consultation</h3>
+                    <p class="text-sm text-gray-500">Personal manager will answer all your questions and will keep you
+                      updated on everything stages of work</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="relative border border-[#0391D3] p-6 pt-6">
+                <div
+                  class="absolute -top-6 -left-6 bg-[#0391D3] text-white w-20 h-20 pt-2 pl-3 text-base font-bold whitespace-nowrap">
+                  STEP 6
+                </div>
+                <div class="flex items-start gap-8">
+                  <div class="w-12 flex-shrink-0 mt-16">
+                    <img src="img/work/6.svg" alt="icon" class="w-full h-auto">
+                  </div>
+                  <div class="mt-4">
+                    <h3 class="font-bold text-gray-900 mb-2">Consultation</h3>
+                    <p class="text-sm text-gray-500">Personal manager will answer all your questions and will keep you
+                      updated on everything stages of work</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </section>
 
       </div>
     </section>
+
+    <section class="discount-section">
+      <div class="discount__container">
+
+        <div class="discount__content">
+          <h2 class="discount__title">Get 15% discount right now!</h2>
+          <p class="discount__text">
+            You choose LG, and as a token of gratitude we give you a 15% discount on all types of repair work in our
+            center
+          </p>
+          <button class="discount__btn" type="button">Get 15% discount</button>
+        </div>
+
+        <div class="discount__image">
+          <img src="img/discount/theme.png" alt="Master">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="reviews">
+
+      <div class="reviews__container">
+
+        <!-- Заголовок секции -->
+        <h2 class="reviews__title">Reviews</h2>
+
+        <!-- Обертка для всех карточек -->
+        <div class="reviews__grid">
+
+          <!-- Здесь будут располагаться сами карточки -->
+
+          <div class="review-card">
+
+            <!-- 1. Фотография клиента (аватар) -->
+            <img src="img/reviews/2.png" alt="Jacob Smith" class="review-card__avatar">
+
+            <!-- 2. Внутренний блок, у которого будет синяя рамка -->
+            <div class="review-card__content">
+
+              <!-- 3. Верхняя левая кавычка -->
+              <img src="img/reviews/arrow-left.png" alt="quote" class="review-card__quote review-card__quote--top">
+              <img src="img/reviews/arrow-right.png" alt="quote" class="review-card__quote review-card__quote--bottom">
+
+              <!-- 4. Имя клиента -->
+              <h3 class="review-card__name">Jacob Smith</h3>
+
+              <!-- 5. Текст отзыва -->
+              <p class="review-card__text">
+                Everything is just great with the website and service of this company! The quality of the product
+                corresponds to the declared one. I will continue to use products from this site, and I can confidently
+                recommend it to people.
+              </p>
+            </div>
+
+          </div>
+
+
+
+          <div class="review-card">
+
+            <!-- 1. Фотография клиента (аватар) -->
+            <img src="img/reviews/1.png" alt="Jacob Smith" class="review-card__avatar">
+
+            <!-- 2. Внутренний блок, у которого будет синяя рамка -->
+            <div class="review-card__content">
+
+              <!-- 3. Верхняя левая кавычка -->
+              <img src="img/reviews/arrow-left.png" alt="quote" class="review-card__quote review-card__quote--top">
+              <img src="img/reviews/arrow-right.png" alt="quote" class="review-card__quote review-card__quote--bottom">
+
+              <!-- 4. Имя клиента -->
+              <h3 class="review-card__name">Jacob Smith</h3>
+
+              <!-- 5. Текст отзыва -->
+              <p class="review-card__text">
+           We are grateful for the high-quality and professional service, the quick response. Master Sergey arrived at the appointed time and did everything well
+           and it is very important to use this service in the future becase of techology.
+
+
+              </p>
+            </div>
+
+          </div>
+          <div class="review-card">
+
+            <!-- 1. Фотография клиента (аватар) -->
+            <img src="img/reviews/3.png" alt="Jacob Smith" class="review-card__avatar">
+
+            <!-- 2. Внутренний блок, у которого будет синяя рамка -->
+            <div class="review-card__content">
+
+              <!-- 3. Верхняя левая кавычка -->
+              <img src="img/reviews/arrow-left.png" alt="quote" class="review-card__quote review-card__quote--top">
+              <img src="img/reviews/arrow-right.png" alt="quote" class="review-card__quote review-card__quote--bottom">
+
+              <!-- 4. Имя клиента -->
+              <h3 class="review-card__name">Jacob Smith</h3>
+
+              <!-- 5. Текст отзыва -->
+              <p class="review-card__text">
+                I would like to express my gratitude to the company for the quality work done on repairing the washing
+                machine! Everything was high quality and prompt: from the dispatcher’s acceptance of the application to
+                the work of the foreman!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+   <section class="FAQ-section">
+  <div class="FAQ__container">
+    
+    
+    <h2 class="FAQ__title">Answers and questions</h2>
+
+  
+    <div class="FAQ__grid">
+      
+      <!-- Карточка 1 -->
+      <div class="FAQ__item">
+        <p class="FAQ__question">How to find out how much the repair will cost?</p>
+  
+      </div>
+      <div class="FAQ__item">
+        <p class="FAQ__question">Is it possible to call a specialist to your home or office?</p>
+       
+      </div>
+      <div class="FAQ__item">
+        <p class="FAQ__question">How long will the diagnosis take?</p>
+     
+      </div>
+      <div class="FAQ__item">
+        <p class="FAQ__question">Will new problems appear after the repair?</p>
+    
+      </div>
+      <div class="FAQ__item">
+        <p class="FAQ__question">Do you provide a guarantee for repairs?</p>
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+
   </main>
+  <script src="main.js"></script>
 </body>
+
 </html>

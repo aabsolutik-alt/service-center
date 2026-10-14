@@ -1,0 +1,191 @@
+.discount-section {
+  width: 100%;
+  background-color: #0391D3;
+  padding: 60px 0;
+  margin-top: 80px; 
+  position: relative; 
+}
+
+.discount__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.discount__content {
+  max-width: 500px;
+  color: #ffffff;
+}
+
+.discount__title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.discount__text {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  opacity: 0.9;
+}
+
+.discount__btn {
+  background-color: #FF4500;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 12px 32px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.discount__image {
+  position: relative;
+}
+
+.discount__image img {
+  max-width: 550px; 
+  height: auto;
+  display: block;
+  margin-top: -80px; 
+  margin-bottom: -60px;
+}
+
+
+
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.review-card__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; 
+  position: relative;
+  z-index: 2; 
+  margin-bottom: -40px; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.review-card__content {
+  border: 2px solid #0391D3;
+  padding: 24px; 
+  padding-top: 50px; 
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+
+
+.reviews__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 16px;
+}
+
+
+.reviews__title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.reviews__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+
+.review-card__quote {
+  position: absolute; 
+  width: 24px;
+  height: auto;
+}
+
+.review-card__quote--top {
+  top: 24px;
+  left: 24px;
+}
+
+.review-card__quote--bottom {
+  bottom: 24px;
+  right: 24px;
+}
+
+.review-card__name {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.review-card__text {
+  font-size: 14px;
+  color: #656565;
+  line-height: 1.6;
+  text-align: left;
+}
+
+
+.FAQ__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+
+
+.FAQ-section {
+  background-color: #0391D3;
+  padding: 60px 0; 
+}
+
+
+.FAQ__title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+
+.FAQ__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.FAQ__item {
+    background-color: #ffffff;
+    padding: 16px 24px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.FAQ__item::after {
+    content: ''; 
+    width: 8px; 
+    height: 8px;
+    border-right: 2px solid #212529; 
+    border-bottom: 2px solid #212529; 
+    transform: rotate(45deg); 
+    margin-bottom: 4px; 
+}
